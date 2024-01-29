@@ -1,0 +1,149 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 100px;
+
+}
+.link1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    height: 70px;
+    width: 70px;
+}
+.link2 img{
+    height: 30px;
+    width: 30px;
+    margin-top: 20px;
+} 
+.menu{
+    font-size: 130%;
+margin-left: 40px;
+}
+.menu a{
+    margin-left: 30px;
+    color: gray;
+    text-decoration: none;
+}
+.menu :hover{
+    color: black;
+}
+.hero{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./image/audiBackground.jpg');
+    height: 90vh;
+    background-position: center;
+    background-size: cover;
+}
+.content h1{
+    font-size: 280%;
+    padding-top: 30px;
+    padding-left: 50px;
+    color: white;
+}
+.content p{
+    font-size:25px;     
+    margin-left: 50px;
+    padding-top: 20px;
+    color: white;
+}
+#btn1{
+    margin-top: 30px;
+    margin-left: 50px;
+    padding: 20px 35px;
+    font-size: 100%;
+}
+#btn2{
+    padding: 20px 40px;
+    font-size: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    border: 1px solid white;
+    color: white;
+    }
+    #btn1:hover{
+        color:gray;
+    }
+    #btn2:hover{
+        color: gray;
+}
+.model{
+    font-size: 130%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.model a{
+    color: black;
+}
+.cars{
+    display: flex;
+    justify-content: center;
+    
+}
+.car img{
+    height: 100%;
+    width: 100%;
+}
+.car{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.car a{
+    font-size:20px;
+    text-decoration: none;
+    color: black;
+}
+.car:hover{
+    transform: scale(1.06);
+    text-decoration: underline;
+}
+.showroom{
+    display: flex;
+    align-items: center;
+}
+.para{
+    margin-left: -20px;
+    font-size: 50px;
+}
+.para button{
+    padding: 18px 75px;
+}
+.showphoto img{
+    height: 70%;
+    width: 70%;
+    margin-top: 150px;
+    margin-left: 170px;
+}
+.electric{
+    background-image: url('./image/electricIMG.jpg');
+    height: 200vh;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 50px;
+}
+.para2{
+   height: 25%;
+   width: 40%;
+   background-color: white;
+   margin-left: 60px;
+   padding: 80px 50px;
+   font-size: 130%;
+  position: absolute;
+  top: 310%;
+    
+}
+#btn3{
+    padding: 15px 30px;
+    background-color: black;
+    color: white;
+   
+
+}
+#btn4{
+    padding: 15px 35px;
+}
